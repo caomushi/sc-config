@@ -1,10 +1,6 @@
 spring:
   application:
     name: item-service
-  #控制中心配置会覆盖客户端配置，需禁止
-  cloud:
-    config:
-      override-none: true
 
 eureka:
   client:
