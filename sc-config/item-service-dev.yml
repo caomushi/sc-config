@@ -1,6 +1,7 @@
 spring:
   application:
     name: item-service
+  #不覆盖本地的配置文件
   cloud: 
     config: 
       override-none: true
